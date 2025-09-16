@@ -2,12 +2,13 @@
 import React from "react";
 import Map from "../components/Map";
 
-function Home() {
+const Home = () => {
   return (
-    <div className="w-screen h-screen relative overflow-hidden bg-slate-900">
-      <Map />
-    </div>
+    //  < <div className="w-screen h-screen relative overflow-hidden bg-slate-900">
+    //     <Map />
+    //   </div>>
+    <></>
   );
-}
+};
 
 export default Home;
