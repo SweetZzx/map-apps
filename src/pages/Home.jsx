@@ -1,10 +1,11 @@
-import React from 'react';
+// src/pages/Home.jsx
+import React from "react";
+import Map from "../components/Map";
 
-const Home = () => {
+function Home() {
   return (
-    <div>
-      <h1>Hello Vite + React!</h1>
-      <p>This is the default React app created with Vite.</p>
+    <div className="w-screen h-screen relative overflow-hidden bg-slate-900">
+      <Map />
     </div>
   );
 }
